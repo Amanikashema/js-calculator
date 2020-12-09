@@ -1,0 +1,35 @@
+.calculator{
+    background: lightblue;
+    width: 18%;
+    margin: 0%;
+    padding: 3%;
+    border-radius: 70px;
+    position: relative;
+    left: 650px;
+    top: 100px;
+}
+
+.display{
+    width: 85%;
+    height: 60px;
+    text-align-last: end;
+    font-size: 50px;
+}
+
+.clear{
+    background:red;
+    color:white;
+    width:93%;
+    height:27px;
+}
+
+.equal{
+    height:30px;
+    width: 93%;
+    background: blue;
+}
+
+.operator{
+    background: darkgray;
+    width: 93%;
+}

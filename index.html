@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div border="3" class="calculator">
+        <p>Calculator</p>
+       
+        <form name="result">
+            <input type="text" class="display" name="display">
+        </form>
+        <table border="3">
+            <tr>
+                <td><input type="button" value="9" onclick="display(9)"></td>
+                <td><input type="button" value="8" onclick="display(8)"></td>
+                <td><input type="button" value="7" onclick="display(7)"></td>
+                <td><input type="button" class="operator" name="plus/minus" value="+/-"></td>
+                <td><input type="button" class="operator" name="plus" value="--"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="6" onclick="display(6)"></td>
+                <td><input type="button" value="5" onclick="display(5)"></td>
+                <td><input type="button" value="4" onclick="display(4)"></td>
+                <td><input type="button" class="operator" name="multiply" value="x" onclick="display('*')"></td>
+                <td><input type="button" class="division" name="division" value="/" onclick="display('/')"></td>
+            </tr>
+ 
+            <tr>
+                <td><input type="button" value="3" onclick="display(3)"></td>
+                <td><input type="button" value="2" onclick="display(2)"></td>
+                <td><input type="button" value="1" onclick="display(1)"></td>
+                <td><input type="button" class="operator" name="minus" value="-" onclick="display('-')"></td>
+                <td><input type="button" class="equal" name="equal" value="=" onclick="equal('=')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="clear" value="C" onclick="clear()"></td>
+                <td><input type="button" value="0" onclick="display(0)"></td>
+                <td><input type="button" value="." onclick="display('.')"></td>
+                <td><input type="button" class="operator" name="plus" value="+" onclick="display('+')"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
